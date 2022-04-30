@@ -1,0 +1,2 @@
+module HonesHelper
+end
