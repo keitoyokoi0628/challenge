@@ -65,7 +65,7 @@ img {
   color: #FFF;
 }
 
-/*HOME*/
+/*main-visual*/
 
 #home {
   background-image: url(/images/mv.png);
@@ -90,4 +90,37 @@ img {
   color: #FAFAFA;
 }
 
+/*Portfolio*/
 
+#portfolio {
+  background-color: #ECEFF1;
+}
+
+.portfolio-text {
+  text-align: center;
+}
+
+.portfolio-text h2 {
+  font-size: 32px;
+  padding-top: 90px;
+  border-bottom: 3px #EC715F solid;
+  display: inline-block;
+}
+
+.portfolio-text p {
+  font-size: 16px;
+  padding-top: 30px;
+}
+
+.item img {
+  width: 300px;
+  height: 250px;
+}
+
+.grid {
+  display: grid;
+  gap: 26px;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 30px;
+  padding-bottom: 90px;
+}
