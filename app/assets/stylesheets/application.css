@@ -124,3 +124,45 @@ img {
   margin-top: 30px;
   padding-bottom: 90px;
 }
+
+/*Feature*/
+.feature-text {
+  text-align: center;
+}
+
+.feature-text h2 {
+  padding-top: 90px;
+  font-size: 32px;
+  border-bottom: 3px #EC715F solid;
+  display: inline-block;
+  justify-content: center;
+}
+
+.feature-text {
+  font-size: 16px;
+  padding-top: 30px;
+}
+
+.feature-contents {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.feature-box {
+  height: auto;
+  width: 320px;
+  padding-top: 30px;
+  padding-bottom: 90px;
+  margin-left: 10px;
+}
+
+.feature-box a {
+  font-size: 20px;
+  padding-top: 10px;
+}
+
+.feature-box p {
+  font-size: 16px;
+  padding-top: 10px;
+}
