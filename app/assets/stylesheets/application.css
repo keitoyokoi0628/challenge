@@ -385,6 +385,16 @@ img {
   border-radius: 50%;
   margin: -30px;
   border-top: 4px solid #24ecff;
+  animation: animation 4s linear infinite;
+}
+
+@keyframes animation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 .container .ring::before {
@@ -396,7 +406,7 @@ img {
   width: 15px;
   height: 15px;
   background: #24ecff;
-  box-shadow: 0 0 0 5px #24ecff
+  box-shadow: 0 0 0 5px #24ecff33, 0 0 0 10px #24ecff22, 0 0 0 20px #24ecff11, 0 0 20px #24ecff, 0 0 50px #24ecff;
 }
 
 .container .ring:nth-child(3) {
